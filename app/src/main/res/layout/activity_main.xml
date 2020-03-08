@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Q1. Which of the following are layers of The Earth's Structure?" />
+
+        <CheckBox
+            android:id="@+id/crust"
+            style="@style/Options1TextStyle"
+            android:text="Crust" />
+
+        <CheckBox
+            android:id="@+id/inner_core"
+            style="@style/Options1TextStyle"
+            android:text="Inner Core" />
+
+        <CheckBox
+            android:id="@+id/mantle"
+            style="@style/Options1TextStyle"
+            android:text="Mantle" />
+
+        <CheckBox
+            android:id="@+id/sea"
+            style="@style/Options1TextStyle"
+            android:text="Sea" />
+
+        <TextView
+            android:text="Q2. Which of the following is an oceanic plate?"
+            style="@style/HeaderTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <RadioButton
+            android:id="@+id/pacific_plate"
+            style="@style/Options2TextStyle"
+            android:text="Pacific Plate" />
+        <RadioButton
+            android:id="@+id/south_american_plate"
+            style="@style/Options2TextStyle"
+            android:text="South American Plate" />
+        <RadioButton
+            android:id="@+id/eurasian_plate"
+            style="@style/Options2TextStyle"
+            android:text="Eurasian Plate" />
+
+        <TextView
+            android:text="Q3. Which islands are found above hot spots?"
+            style="@style/HeaderTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <RadioButton
+            android:id="@+id/hawaii"
+            style="@style/Options2TextStyle"
+            android:text="Hawaii" />
+        <RadioButton
+            android:id="@+id/british_isles"
+            style="@style/Options2TextStyle"
+            android:text="British Isles" />
+        <RadioButton
+            android:id="@+id/maldives"
+            style="@style/Options2TextStyle"
+            android:text="Maldives" />
+
+
+
+        <TextView
+            android:text="Q4. What are the factors that affect wave energy?"
+            style="@style/HeaderTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/fetch"
+            style="@style/Options1TextStyle"
+            android:text="Fetch" />
+        <CheckBox
+            android:id="@+id/wind_speed"
+            style="@style/Options1TextStyle"
+            android:text="Wind Speed" />
+        <CheckBox
+            android:id="@+id/wind_duration"
+            style="@style/Options1TextStyle"
+            android:text="Wind Duration" />
+
+        <TextView
+            android:text="Q5. Types of waves: There are..."
+            style="@style/HeaderTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/constructive_waves"
+            style="@style/Options1TextStyle"
+            android:text="Constructive Waves" />
+        <CheckBox
+            android:id="@+id/destructive_waves"
+            style="@style/Options1TextStyle"
+            android:text="Destructive Waves" />
+        <CheckBox
+            android:id="@+id/transform_waves"
+            style="@style/Options1TextStyle"
+            android:text="Transform Waves" />
+
+
+        <Button
+            android:id="@+id/button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="submit"
+            android:text="Submit"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/Score"
+            android:text="Score:"
+           style="@style/HeaderTextStyle"/>
+
+    </LinearLayout>
+
+</ScrollView>

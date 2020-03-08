@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">#9E9E9E</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#607D8B</item>
+    </style>
+
+    <!-- Style for a header TextView -->
+    <style name = "HeaderTextStyle" >
+        <item name = "android:layout_width">wrap_content</item>
+        <item name = "android:layout_height">48dp</item>
+        <item name = "android:gravity">center_vertical</item>
+        <item name = "textAllCaps" >false</item>
+        <item name = "android:textSize">17sp</item>
+        <item name = "android:textColor">#90a4ae</item>
+    </style>
+
+    <!-- Style for options for Checkbox -->
+    <style name = "Options1TextStyle" >
+        <item name = "android:layout_width">wrap_content</item>
+        <item name = "android:layout_height">wrap_content</item>
+        <item name = "android:paddingLeft">24dp</item>
+        <item name = "android:textSize">16sp</item>
+    </style>
+    <!-- Style for options for Radio Button -->
+    <style name = "Options2TextStyle" >
+        <item name = "android:layout_width">wrap_content</item>
+        <item name = "android:layout_height">wrap_content</item>
+        <item name = "android:textSize">16sp</item>
+    </style>
+
+
+</resources>
